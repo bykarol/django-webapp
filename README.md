@@ -12,7 +12,7 @@ Web application to manage the list of patients in a clinic. This application is 
 * Django useful commands:
   - Create the initial project files: `django-admin startproject my_project_name`
   - Create an app in your project: `python manage.py startapp my_app_name`
-  - open a web browser to open the web pages: `python manage.py runserver`
+  - Open a web browser to open the web pages: `python manage.py runserver`
 
 ## [Software Demo Video](http://youtube.link.goes.here)
 
