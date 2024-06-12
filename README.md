@@ -26,6 +26,7 @@ Web application to manage the list of patients in a clinic. This application is 
 # Development Environment
 * Visual Studio Code
 * Django for Python
+* CSS framework - [Bootstrap](https://getbootstrap.com/)
 * Git / GitHub
 
 # Useful Websites
