@@ -20,6 +20,7 @@ venv3/
 .venv3/
 
 # Local configuration files and databases
+db.sqlite3
 *.sqlite3
 *.db
 *.log
