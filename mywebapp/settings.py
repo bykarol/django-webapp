@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'pages.apps.PagesConfig',
+    'patient.apps.PatientConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

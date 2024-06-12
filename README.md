@@ -15,7 +15,7 @@ Web application to manage the list of patients in a clinic. This application is 
   - Create the initial project files: `django-admin startproject my_project_name`
   - Run the server: `python manage.py runserver`
   - Open the browser, go to http://localhost:8000
-4) Creating an app: `python manage.py startapp my_app_name`
+4) Creating a new app: `python manage.py startapp my_app_name`
 
 ## [Software Demo Video](http://youtube.link.goes.here)
 
@@ -26,6 +26,7 @@ Web application to manage the list of patients in a clinic. This application is 
 # Development Environment
 * Visual Studio Code
 * Django for Python
+* SQLite
 * CSS framework - [Bootstrap](https://getbootstrap.com/)
 * Git / GitHub
 

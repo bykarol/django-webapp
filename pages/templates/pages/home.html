@@ -3,5 +3,23 @@
 {% extends "base.html" %}
 
 {% block page_content %}
-<h1>Hello, World!</h1>
+<div class="container d-flex flex-column">
+  <!-- Header -->
+  <header class="jumbotron text-center">
+    <h1 class="display-9">Welcome to Patient Management System - PAMS</h1>
+    <p class="lead">Web application to manage the list of patients in a clinic.</p>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container flex-1 d-flex justify-content-center align-items-center">
+    <h2>List of Patients</h2>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start mt-auto">
+    <div class="text-center p-3 bg-dark text-white">
+      2024 | My Django Web App | Karol Bracho
+    </div>
+  </footer>
+</div>
 {% endblock page_content %}
