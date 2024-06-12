@@ -7,12 +7,15 @@ Web application to manage the list of patients in a clinic. This application is 
 
 ## Guidance
 ### Django:
-
-* Use pip to install Django: `pip install Django`
-* Django useful commands:
+1) Virtual environment to manage dependencies (optional):
+  - Set virtual environment: `python -m venv venv`
+  - Activate the virtual environment: `.\venv\Scripts\activate`
+2) Use pip to install Django: `python -m pip install Django`
+3) Django useful commands:
   - Create the initial project files: `django-admin startproject my_project_name`
-  - Create an app in your project: `python manage.py startapp my_app_name`
-  - Open a web browser to open the web pages: `python manage.py runserver`
+  - Run the server: `python manage.py runserver`
+  - Open the browser, go to http://localhost:8000
+4) Creating an app: `python manage.py startapp my_app_name`
 
 ## [Software Demo Video](http://youtube.link.goes.here)
 
