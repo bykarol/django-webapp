@@ -5,15 +5,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{% block title %}Patient Management System - PAMS{% endblock title %}</title>
-  <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
+  <title>{% block title %}Patient Management System - PMS{% endblock title %}</title>
+  <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column" style="min-height: 100%;">
+<body class="d-flex flex-column">
   <!-- Nav -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
-    <a class="navbar-brand" href="{% url 'homepage' %}">PAMS</a>
+    <a class="navbar-brand" href="{% url 'homepage' %}">PMS</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,7 +33,7 @@
   <div class="container d-flex flex-column flex-1">
     <!-- Header -->
     <header class="jumbotron text-center mt-3">
-      <h1 class="display-9">Welcome to Patient Management System - PAMS</h1>
+      <h1 class="display-9">Welcome to Patient Management System - PMS</h1>
       <p class="lead">Web application to manage the list of patients in a clinic.</p>
     </header>
     {% block page_content %}{% endblock page_content %}
