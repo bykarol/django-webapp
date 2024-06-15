@@ -13,7 +13,8 @@ Web application to manage the list of patients in a clinic. This application is 
 2) Use pip to install Django: `python -m pip install Django`
 3) Django useful commands:
   - Create the initial project files: `django-admin startproject my_project_name`
-  - Run the server: `python manage.py runserver`
+  - Enter to the project folder: `cd my_project_name`
+  - Run the server (check if it is working): `python manage.py runserver`
   - Open the browser, go to http://localhost:8000
 4) Creating a new app: `python manage.py startapp my_app_name`
 
