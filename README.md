@@ -1,6 +1,6 @@
 ﻿# Overview
 
-Web application to manage the list of patients in a clinic. This application is created using Python Django.
+Web application to manage the list of patients in a clinic. This application is created using Django framework for Python.
 
 > Using a framework can reduce the time it takes to create web content. In the case of Django, you also have the benefit of using the Python programming language to process requests. When a request is made to this web app, the Django framework calls the appropriate Python code. The Python code then parse the request and prepare a response by reading a database. To produce the response, a template HTML file is populated with data created by the Python function. The response is then automatically sent back by the Django framework. 
 
@@ -17,6 +17,9 @@ Web application to manage the list of patients in a clinic. This application is 
   - Run the server (check if it is working): `python manage.py runserver`
   - Open the browser, go to http://localhost:8000
 4) Creating a new app: `python manage.py startapp my_app_name`
+5) After changing the model, do migrations:
+  - Add new migrations `python manage.py makemigrations`
+  - Do the migrations `python manage.py migrate`
 
 ## [Software Demo Video](http://youtube.link.goes.here)
 
@@ -26,6 +29,7 @@ Web application to manage the list of patients in a clinic. This application is 
 
 # Development Environment
 * Visual Studio Code
+* Pylance (VS Code Extension)
 * Django for Python
 * SQLite
 * CSS framework - [Bootstrap](https://getbootstrap.com/)
@@ -36,7 +40,7 @@ Web application to manage the list of patients in a clinic. This application is 
 * [Django Documentation and Tutorial (official site)](https://docs.djangoproject.com/en/3.0/contents/)
 * [Django Tutorial - TutorialsPoint](https://www.tutorialspoint.com/django/index.htm)
 * [Django Tutorial - RealPython](https://realpython.com/get-started-with-django-1/)
-* [Master in Python - Django Videos from #52 to #66. Spanish Tutorial](https://youtu.be/DdDpaO66gdI?si=N7SABKIobnwl84sq)
+* [Master in Python - Django Tutorial from video #52 to #66. Spanish Tutorial](https://youtu.be/DdDpaO66gdI?si=N7SABKIobnwl84sq)
 
 # Future Work
 
