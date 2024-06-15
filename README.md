@@ -44,7 +44,6 @@ Web application to manage the list of patients in a clinic. This application is 
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
+* Data Validation on ServerSide
 * Item 2
 * Item 3
