@@ -36,6 +36,7 @@ Web application to manage the list of patients in a clinic. This application is 
 * [Django Documentation and Tutorial (official site)](https://docs.djangoproject.com/en/3.0/contents/)
 * [Django Tutorial - TutorialsPoint](https://www.tutorialspoint.com/django/index.htm)
 * [Django Tutorial - RealPython](https://realpython.com/get-started-with-django-1/)
+* [Master in Python - Django Videos from #52 to #66. Spanish Tutorial](https://youtu.be/DdDpaO66gdI?si=N7SABKIobnwl84sq)
 
 # Future Work
 
