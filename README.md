@@ -8,18 +8,18 @@ This web app manages patient data with pages for viewing existing records and ad
 ## Guidance
 ### Django:
 1) Virtual environment to manage dependencies (optional):
-  - Set virtual environment: `python -m venv venv`
-  - Activate the virtual environment: `.\venv\Scripts\activate`
+    - Set virtual environment: `python -m venv venv`
+    - Activate the virtual environment: `.\venv\Scripts\activate`
 2) Use pip to install Django: `python -m pip install Django`
 3) Django useful commands:
-  - Create the initial project files: `django-admin startproject my_project_name`
-  - Enter to the project folder: `cd my_project_name`
-  - Run the server (check if it is working): `python manage.py runserver`
-  - Open the browser, go to http://localhost:8000
+    - Create the initial project files: `django-admin startproject my_project_name`
+    - Enter to the project folder: `cd my_project_name`
+    - Run the server (check if it is working): `python manage.py runserver`
+    - Open the browser, go to http://localhost:8000
 4) Creating a new app: `python manage.py startapp my_app_name`
 5) After changing the model, do migrations:
-  - Add new migrations `python manage.py makemigrations`
-  - Do the migrations `python manage.py migrate`
+    - Add new migrations `python manage.py makemigrations`
+    - Do the migrations `python manage.py migrate`
 
 Note: I've created a script named *server_starter* for running essential commands. You can access it at: *scripts/server_starter*. To execute the script, simply copy and paste the following command in your terminal: `./scripts/server_starter`
 
