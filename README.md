@@ -1,6 +1,6 @@
 ﻿# Overview
 
-Web application to manage the list of patients in a clinic. This application is created using Django framework for Python.
+This web app manages patient data with pages for viewing existing records and adding new entries. This application is created using Django framework for Python.
 
 > Using a framework can reduce the time it takes to create web content. In the case of Django, you also have the benefit of using the Python programming language to process requests. When a request is made to this web app, the Django framework calls the appropriate Python code. The Python code then parse the request and prepare a response by reading a database. To produce the response, a template HTML file is populated with data created by the Python function. The response is then automatically sent back by the Django framework. 
 
@@ -25,7 +25,21 @@ Web application to manage the list of patients in a clinic. This application is 
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+This web application consists of two main pages and a base template for consistent design:
+
+### Homepage
+- Purpose: Displays a list of patients stored in the database.
+- Content: Patient personal data
+
+### NewPatient Page
+- Purpose: Provides a form to add new patients to the database.
+- Content: Includes input fields for patient information.
+- Feedback: Shows error messages for form validation and success messages upon adding a patient.
+
+### Base Template
+- Purpose: Provides a consistent layout across all pages.
+- Content: Includes header with branding, navigation bar with links, and footer information.
+- Usage: Every page extends this template for uniformity.
 
 # Development Environment
 * Visual Studio Code
@@ -44,6 +58,5 @@ Web application to manage the list of patients in a clinic. This application is 
 
 # Future Work
 
-* Data Validation on ServerSide
-* Item 2
-* Item 3
+* Update a Patient
+* Delete a Patient
