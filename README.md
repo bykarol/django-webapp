@@ -1,6 +1,6 @@
 ﻿# Overview
 
-This web app manages patient data with pages for viewing existing records and adding new entries. This application is created using Django framework for Python.
+This web app manages patient data with pages for viewing existing records and adding new patients. This application is created using Django framework for Python.
 
 > Using a framework can reduce the time it takes to create web content. In the case of Django, you also have the benefit of using the Python programming language to process requests. When a request is made to this web app, the Django framework calls the appropriate Python code. The Python code then parse the request and prepare a response by reading a database. To produce the response, a template HTML file is populated with data created by the Python function. The response is then automatically sent back by the Django framework. 
 
@@ -21,7 +21,10 @@ This web app manages patient data with pages for viewing existing records and ad
   - Add new migrations `python manage.py makemigrations`
   - Do the migrations `python manage.py migrate`
 
-## [Software Demo Video](http://youtube.link.goes.here)
+Note: I've created a script named *server_starter* for running essential commands. You can access it at: *scripts/server_starter*. To execute the script, simply copy and paste the following command in your terminal: `./scripts/server_starter`
+
+
+## [Software Demo Video](https://youtu.be/RtjZRNT7jfg)
 
 # Web Pages
 
@@ -60,3 +63,4 @@ This web application consists of two main pages and a base template for consiste
 
 * Update a Patient
 * Delete a Patient
+* Implement appointments management
