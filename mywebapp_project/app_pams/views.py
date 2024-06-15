@@ -1,10 +1,12 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from . forms import PatientForm
+from .models import Patient
 
 # Create your views here.
 def homepage(request):
-    return render(request, "homepage.html")
+    patients = Patient.objects.all()
+    return render(request, "homepage.html", {'patients': patients})
 
 def newpatient(request):
   if request.method == 'POST':
