@@ -61,6 +61,7 @@ This web application consists of two main pages and a base template for consiste
 
 # Future Work
 
-* Update a Patient
-* Delete a Patient
 * Implement appointments management
+* UPDATE 23/06/2024 -> Implemented in [this new repo](https://github.com/bykarol/cloud-firestore-app):
+    * ~~Update a Patient~~
+    * ~~Delete a Patient~~
